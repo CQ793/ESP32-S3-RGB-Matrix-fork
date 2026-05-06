@@ -36,7 +36,5 @@ void app_main(void) {
     qmi_start();
 #elif MATRIX_EXAMPLE_AUDIO
     audio_start();
-#elif MATRIX_EXAMPLE_SPECTRUM
-    spectrum_start();
 #endif
 }
